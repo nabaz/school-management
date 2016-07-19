@@ -1,4 +1,7 @@
-💁 *Zemke/starter-laravel-angular has been upgraded to Laravel 5.1.0. You can pull the changes and run* `rm composer.lock && composer install --prefer-dist --no-scripts` *to merge the upgrade.*
+# School Management Test App - still in development built on top of Zemek Starter.
+
+?Dependencies:?
+ *Zemke/starter-laravel-angular has been upgraded to Laravel 5.1.0. You can pull the changes and run* `rm composer.lock && composer install --prefer-dist --no-scripts` *to merge the upgrade.*
 
 # Laravel and AngularJS Starter Application
 
