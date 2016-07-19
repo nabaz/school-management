@@ -1,4 +1,4 @@
-# School Management Test App - still in development built on top of Zemek Starter.
+# School Management Test App - still in development built on top of Zemke/starter-laravel-angular.
 
 ?Dependencies:?
  *Zemke/starter-laravel-angular has been upgraded to Laravel 5.1.0. You can pull the changes and run* `rm composer.lock && composer install --prefer-dist --no-scripts` *to merge the upgrade.*
