@@ -1,0 +1,24 @@
+<html>
+
+<body>
+
+<?php require_once('../api/TwitterFeedReader.php'); ?>
+<?php $twitter = new TwitterFeedReader('user', 'nabazmaaruf', 10);
+//echo '<pre>';
+//print_r($twitter);
+?>
+
+<ul>
+    <?php foreach ($twitter->tweets as $twitter->tweet) : ?>
+
+        <li>
+            <h4><?php $twitter->author('name')?> @<?php $twitter->author('screen_name'); ?>:</h4>
+            <img src="<?php $twitter->userAvatar(); ?>" width="48"/>
+            <p><?php $twitter->tweetHTML(); ?></p>
+        </li>
+
+    <?php endforeach; ?>
+</ul>
+</body>
+
+</html>

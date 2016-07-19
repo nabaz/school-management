@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+www/api/.env
+www/api/bower_components
+www/api/node_modules
+
